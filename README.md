@@ -20,7 +20,7 @@ Quantum_SDK는 다양한 양자 컴퓨팅 프레임워크(CUDA-Q, PennyLane, Qis
 - 어플리케이션 폴더에는 실제 양자 알고리즘(예: Bernstein-Vazirani, QAOA, Molecular Docking 등) 구현 예제가 있습니다.
 
 ## 시작하기
-1. 각 프레임워크별 폴더로 이동하여 Jupyter Notebook 또는 Python 파일을 실행하세요.
+1. 각 프레임워크별 폴더로 이동하여 Jupyter Notebook ddd또는 Python 파일을 실행하세요.
 2. 필요한 패키지는 각 예제의 설명 또는 requirements.txt(존재 시)에 따라 설치하세요.
 3. 데이터가 필요한 경우, `data/` 폴더를 참고하세요.
 
