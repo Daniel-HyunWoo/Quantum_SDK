@@ -31,3 +31,21 @@ Quantum_SDK는 다양한 양자 컴퓨팅 프레임워크(CUDA-Q, PennyLane, Qis
 ---
 
 **Quantum_SDK**는 양자 컴퓨팅 실습과 연구를 위한 통합 환경을 제공합니다. 다양한 프레임워크의 예제를 통해 양자 알고리즘을 쉽게 실험하고 비교할 수 있습니다.
+
+## 🚀 권장 환경 셋업 (A100 GPU 최적화)
+이 프로젝트는 **NVIDIA A100 GPU** 및 **CUDA 12.x** 환경에서 가장 잘 작동하도록 설계되었습니다. (Python 3.11 권장)
+PyTorch(GPU), cuQuantum, CUDA-Q, PennyLane, Qiskit의 충돌 없는 실행을 위해 제공된 스크립트를 사용하세요. Conda가 설치되어 있다면 자동으로 Conda를 사용하여 핵심 라이브러리(PyTorch, cuQuantum 등)를 우선 설치합니다.
+
+```bash
+# 실행 권한 부여
+chmod +x setup_env.sh
+
+# 환경 구축 및 패키지 설치 (Conda 자동 감지)
+./setup_env.sh
+
+# 환경 활성화 (Conda 사용 시)
+conda activate quantum_env
+
+# 환경 활성화 (Pip/Venv 사용 시)
+source quantum_env/bin/activate
+```

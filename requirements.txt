@@ -1,0 +1,38 @@
+# Python 3.11 Environment Requirement
+
+# NVIDIA Quantum & GPU Arrays (CUDA 12.x)
+cupy-cuda12x>=13.0.0
+nvmath-python>=0.1.0  # cuQuantum 0.3.0+ 필수 의존성
+cuquantum-python-cu12>=24.3.0 
+cudaq>=0.8.0
+
+# Qiskit
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+
+# PennyLane
+pennylane>=0.35.0
+pennylane-qiskit>=0.35.0
+PennyLane-Lightning-GPU>=0.35.0
+
+# Machine Learning (PyTorch)
+torch>=2.2.0
+torchvision
+torchaudio
+
+# Data Science & Processing
+pandas
+numpy
+scipy
+scikit-learn
+h5py
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+jupyter
+ipykernel
